@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test" : "node test.js",
+    "start": "node index.js",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "Abhishek Deshmukh",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
+  }
 }
